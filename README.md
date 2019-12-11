@@ -76,7 +76,7 @@ VS CODE
 
 (19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: ![Require models in app js file (Sequelized_RESTfulAPI_ParameterizedRoute_HelperFunction)](https://user-images.githubusercontent.com/35668707/70664768-13419480-1c39-11ea-94aa-914467936126.JPG)
 
-(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
+(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: ![Add models sequelize sync in app js file (Sequelized_RESTfulAPI_ParameterizedRoute_HelperFunction)](https://user-images.githubusercontent.com/35668707/70664826-379d7100-1c39-11ea-8a2c-39f5b8583f00.JPG)
 
 (21) In the routes/index.js file require the models.: 
 
