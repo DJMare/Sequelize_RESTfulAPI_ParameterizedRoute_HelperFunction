@@ -78,9 +78,9 @@ VS CODE
 
 (20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
 
-(21) In the routes/index.js file require the models.: ![Require models in index js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489903-f5562180-1aca-11ea-9fd7-82cf46cd3fc7.JPG)
+(21) In the routes/index.js file require the models.: 
 
-(22) In the routes/index.js file add get() route for /actors that will use the findAll() method.: ![Add get() route for actors id in index js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489953-1cacee80-1acb-11ea-9c73-65e49d3bbb63.JPG)
+(22) In the routes/index.js file add get() route for /actors that will use the findAll() method.: 
 
 COMMAND PROMPT
 
@@ -90,7 +90,7 @@ COMMAND PROMPT
 
 POSTMAN
 
-(24) Navigate to localhost3000/actors/[insert specific id #] in Postman and perform a GET request to view data.: ![Perform a GET request for localhost3000 - actors in POSTMAN to view data (Sequelize_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489978-31898200-1acb-11ea-8d9e-bd19209b93b0.JPG)
+(24) Navigate to localhost3000/actors/[insert specific id #] in Postman and perform a GET request to view data.: 
 
 NODEMON NOTE
 
