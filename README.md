@@ -70,13 +70,13 @@ VS CODE
 
 (16) Create a new folder in your "models" folder called rel. Create a file in your rel folder called associations.js and define the relationships between the "film" and "actor" models in this file.: 
 
-(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: ![Call associations function in models-index js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489585-326de400-1aca-11ea-8ad9-4c9f076914b4.JPG)
+(17) In the models/index.js file add associations constant and at the bottom of the models/index.js file add the call to associations function.: 
 
-(18) Open config/config.json file and change settings to connect to the database.: ![Update database connection info in config-config json file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489699-7bbe3380-1aca-11ea-9c15-13b28b09aca0.JPG)
+(18) Open config/config.json file and change settings to connect to the database.: 
 
-(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: ![Require models in app js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489768-a8724b00-1aca-11ea-9f74-1e8dd8b3afda.JPG)
+(19) Open app.js file at the root of the project and include the './model" folder so that the models are available everywhere in the application.: 
 
-(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: ![Add models sequelize sync in app js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489851-cf308180-1aca-11ea-9156-bee825e5d511.JPG)
+(20) Add sequelize sync code above module.exports in the app.js file to ensure that the tables within the models in the project are the same as in the database.: 
 
 (21) In the routes/index.js file require the models.: ![Require models in index js file (Sequelized_RESTfulAPI_ParameterizedRoute)](https://user-images.githubusercontent.com/35668707/70489903-f5562180-1aca-11ea-9fd7-82cf46cd3fc7.JPG)
 
